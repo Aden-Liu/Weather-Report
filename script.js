@@ -1,4 +1,5 @@
-const apiKey = "9487162d96ad86974316cb12c510f5dd";
+import { apiKey } from "./key.js";
+
 const searchBox = document.querySelector(".search input");
 const searchButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
